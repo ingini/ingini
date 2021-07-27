@@ -15,7 +15,7 @@ DBA Engineer of Quantec, Inc
 
 # History
 ### DB 
- - 국내/해외 market price/ fundamental DB 구축/설계/운영
+ - 국내/해외 market price/ fundamental DB 구축 및 운영
  - mssql -> mysql Data migration
  - Proc Data pipe line 
  - HA solution 운영

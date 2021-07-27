@@ -15,10 +15,12 @@ DBA Engineer of Quantec, Inc
 
 # History
 ### DB 
- - 국내/해외 market price/ fundamental DB 구축 및 설계
- - mssql -> mysql DB migration
+ - 국내/해외 market price/ fundamental DB 구축/설계/운영
+ - mssql -> mysql Data migration
  - Proc Data pipe line 
- - HA setting
+ - HA solution 운영
+ - Database Performance Tuning
+ - DB 백업, 복구, 성능 모니터링/진단/튜닝 담당
 ### Infra
  - KT Cloud & FSDC(private) server setting
  - 정보계/계정계 개발 서버 운영

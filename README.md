@@ -19,7 +19,7 @@ DBA Engineer of Quantec, Inc
  - mssql -> mysql Data migration
  - Proc Data pipe line 
  - HA solution 운영
- - OLTP. OLAP 
+ - OLTP, OLAP 
  - DB 백업, 복구, 성능 모니터링/진단/튜닝 담당
 ### Infra
  - KT Cloud & FSDC(private) server setting

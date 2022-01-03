@@ -23,14 +23,18 @@ Data Engineer of Humaxmobiltiy (2021~)
  - OLTP, OLAP 
  - DB 백업, 복구, 성능 모니터링/진단/튜닝 담당
  - Humax Data NoSQL to RDB 
-### Infra
+### Infra & Develop
  - KT Cloud & FSDC(private) server setting
  - 정보계/계정계 개발 서버 운영
  - server 접근 제어 솔루션(Hiware)
  - On-premise 환경에서 Cloud 환경 migration 
- - AWS architecture (Infra, MWAA, Kinesis, kafka)
- - Humax Data Lake 구축
-### Service
+ - AWS architecture (Infra, MWAA, kafka)
+ - Humax Data Lake 구축 및 Pipeline 
+ - 계열사 otoplug (kafka -> S3 Sink Connector -> Airflow -> Glue, Athena, tableu & QuickSight )
+ - 계열사 Raidea{Carplat, Peoplecar} (Airflow -> ETL, EMR(진행중), Glue, Athena, tableu & QuickSight )
+ - 계열사 humax_EV (station, charge, sales Static Data lambda trigger)
+ - 계열사 AJ_parking ( 미정 ) 
+### Service Develop
  - Daily news data Polarity Detection(극성분석) & 투자성향별 포트폴리오 
  - TESTBED : 코스콤 로보어드바이저 국내/해외 주식 관리
  - Humax mobility Data analysis platform 

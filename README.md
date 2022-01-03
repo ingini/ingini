@@ -30,10 +30,11 @@ Data Engineer of Humaxmobiltiy (2021~)
  - On-premise 환경에서 Cloud 환경 migration 
  - AWS architecture (Infra, MWAA, kafka)
  - Humax Data Lake 구축 및 Pipeline 
- - 계열사 otoplug (kafka -> S3 Sink Connector -> Airflow -> Glue, Athena, tableu & QuickSight )
- - 계열사 Raidea{Carplat, Peoplecar} (Airflow -> ETL, EMR(진행중), Glue, Athena, tableu & QuickSight )
- - 계열사 humax_EV (station, charge, sales Static Data lambda trigger)
- - 계열사 AJ_parking ( 미정 ) 
+ - 계열사 otoplug (kafka -> S3 Sink Connector -> Airflow -> Glue, Athena, tableu & QuickSight ) - 차량장비데이터 sensor, cycle, trip 등
+ - 계열사 Raidea{Carplat, Peoplecar} (Airflow -> ETL, EMR(진행중), Glue, Athena, tableu & QuickSight ) - 카셰어링데이터 
+ - 계열사 humax_EV (station, charge, sales Static Data lambda trigger) - 전기차관련데이터, 충전소데이터
+ - 계열사 AJ_parking, Car123 ( 미정 ) - 주차장데이터, 차량정비데이터, 주차관제데이터
+ - Financial Data Pricing Optimization ( 미정 )
 ### Service Develop
  - Daily news data Polarity Detection(극성분석) & 투자성향별 포트폴리오 
  - TESTBED : 코스콤 로보어드바이저 국내/해외 주식 관리
